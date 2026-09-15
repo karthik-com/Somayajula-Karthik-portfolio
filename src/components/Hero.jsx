@@ -19,7 +19,7 @@ export default function Hero({ onNavigate }) {
                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-blue-500/20 rounded-3xl blur-xl"></div>
                 <div className="relative bg-gradient-to-br from-green-500/10 to-blue-500/10 border border-green-500/30 rounded-3xl overflow-hidden shadow-2xl">
                   <img
-                    src="/headshot.png"
+                    src={`${import.meta.env.BASE_URL}headshot.png`}
                     alt="Somayajula Karthik"
                     className="w-full h-full object-cover"
                   />
