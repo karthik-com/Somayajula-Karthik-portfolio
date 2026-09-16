@@ -25,7 +25,7 @@ export default function Contact() {
     form.submit();
     // Auto-redirect after 3 seconds
     setTimeout(() => {
-      window.location.href = 'http://localhost:5173'; 
+      window.location.href = import.meta.env.BASE_URL; 
     }, 3000);
   };
 
@@ -169,7 +169,7 @@ export default function Contact() {
               <p className="text-sm text-gray-500 mt-2">Quick chat</p>
             </div>
 
-            
+            {/* LinkedIn Card */}
             <div className="border border-blue-500/20 rounded-lg p-6 bg-gradient-to-br from-slate-900/50 to-slate-800/50 backdrop-blur-sm hover:border-blue-500/50 transition-colors">
               <div className="flex items-center gap-4 mb-3">
                 <span className="text-3xl">💼</span>
