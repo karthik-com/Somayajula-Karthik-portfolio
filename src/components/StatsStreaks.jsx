@@ -5,12 +5,14 @@ export default function StatsStreaks() {
     problemsSolved: 231,
     language: 'Python',
     globalRank: 721598,
-    percentile: '72%',
+    acceptanceRate: '72%',
     easyCount: 70,
     mediumCount: 112,
     hardCount: 49,
     currentStreak: '180+',
-    badges: 7
+    badges: 7,
+    contestRating: 1660,
+    contestsParticipated: 8
   };
 
   const tryhackmeStats = {
@@ -57,13 +59,20 @@ export default function StatsStreaks() {
               </a>
             </div>
 
-            {/* Stats Grid - Responsive */}
+            {/* Stats Grid - 2x3 for mobile, responsive */}
             <div className="grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-4 mb-6">
               {/* Problems Solved */}
               <div className="bg-slate-800/50 border border-green-500/20 rounded-lg p-4 md:p-5 hover:border-green-500/30 transition-colors">
                 <p className="text-xs md:text-sm text-gray-400 mb-2">Problems Solved</p>
                 <p className="text-2xl md:text-3xl font-bold text-green-400">{leetcodeStats.problemsSolved}</p>
                 <p className="text-xs text-gray-500 mt-1">{leetcodeStats.language}</p>
+              </div>
+
+              {/* Acceptance Rate */}
+              <div className="bg-slate-800/50 border border-green-500/20 rounded-lg p-4 md:p-5 hover:border-green-500/30 transition-colors">
+                <p className="text-xs md:text-sm text-gray-400 mb-2">Acceptance Rate</p>
+                <p className="text-2xl md:text-3xl font-bold text-green-400">{leetcodeStats.acceptanceRate}</p>
+                <p className="text-xs text-gray-500 mt-1">of Accepted Submissions</p>
               </div>
 
               {/* Rank */}
@@ -89,6 +98,15 @@ export default function StatsStreaks() {
                 </p>
                 <p className="text-2xl md:text-3xl font-bold text-yellow-400">{leetcodeStats.badges}</p>
                 <p className="text-xs text-gray-500 mt-1">Achievements</p>
+              </div>
+
+              {/* Contest Rating */}
+              <div className="bg-slate-800/50 border border-green-500/20 rounded-lg p-4 md:p-5 hover:border-green-500/30 transition-colors">
+                <p className="text-xs md:text-sm text-gray-400 mb-2 flex items-center gap-1">
+                  <span>🏆</span> Contest Rating
+                </p>
+                <p className="text-2xl md:text-3xl font-bold text-yellow-400">{leetcodeStats.contestRating}</p>
+                <p className="text-xs text-gray-500 mt-1">Contests Participated - {leetcodeStats.contestsParticipated}</p>
               </div>
             </div>
 
@@ -162,7 +180,7 @@ export default function StatsStreaks() {
               </a>
             </div>
 
-            {/* Stats Grid - Responsive */}
+            {/* Stats Grid - 2x3 for mobile, responsive */}
             <div className="grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-4 mb-6">
               {/* Rooms Completed */}
               <div className="bg-slate-800/50 border border-blue-500/20 rounded-lg p-4 md:p-5 hover:border-blue-500/30 transition-colors">
