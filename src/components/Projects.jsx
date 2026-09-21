@@ -25,7 +25,7 @@ export default function Projects() {
         "Detailed reporting of findings with remediation recommendations",
         "Use of tools like Nmap, Burp Suite, and OWASP ZAP"
       ],
-      tech: ["Linux", "Nmap", "Subfinder", "Amass", "Nuclei", "Nikto"],
+      tech: ["Linux(Kali)", "Nmap", "Subfinder", "Amass", "Nuclei", "Nikto"],
       
       highlights: "🔍 Comprehensive web security assessment"
     },
