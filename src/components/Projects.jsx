@@ -16,6 +16,20 @@ export default function Projects() {
       highlights: "🏆 Advanced cryptography implementation"
     },
     {
+      title: "Web Application Security Assessment & VAPT",
+      icon: "🛡️",
+      description: "Conducted Attack Surface Management (ASM) of the college web infrastructure to identify and map publicly exposed assets, services, and potential attack surfaces.",
+      features: [
+        "Vulnerability assessment and penetration testing on authorized web assets",
+        "Identification of misconfigurations, outdated software, and potential attack vectors",
+        "Detailed reporting of findings with remediation recommendations",
+        "Use of tools like Nmap, Burp Suite, and OWASP ZAP"
+      ],
+      tech: ["Linux", "Nmap", "Subfinder", "Amass", "Nuclei", "Nikto"],
+      
+      highlights: "🔍 Comprehensive web security assessment"
+    },
+    {
       title: "Image Steganography using LSB",
       icon: "🖼️",
       description: "Developed a secure web application to hide and retrieve secret messages within image files using LSB (Least Significant Bit) technique.",
@@ -109,22 +123,6 @@ export default function Projects() {
                 <span>View on GitHub</span>
                 <span>→</span>
               </a>
-            </div>
-          ))}
-        </div>
-
-        {/* Project Statistics */}
-        <div className="grid md:grid-cols-4 gap-4 mt-16">
-          {[
-            { label: "Projects", value: "10+", icon: "📊" },
-            { label: "Languages", value: "5+", icon: "💻" },
-            { label: "ML Accuracy", value: "95%", icon: "🎯" },
-            { label: "Deployments", value: "5+", icon: "🚀" }
-          ].map((stat, idx) => (
-            <div key={idx} className="border border-blue-500/20 rounded-lg p-6 bg-gradient-to-br from-slate-900/50 to-slate-800/50 backdrop-blur-sm text-center hover:border-blue-500/50 transition-colors">
-              <span className="text-3xl mb-2 block">{stat.icon}</span>
-              <p className="text-2xl font-bold text-blue-400 mb-1">{stat.value}</p>
-              <p className="text-xs text-gray-400">{stat.label}</p>
             </div>
           ))}
         </div>
