@@ -157,7 +157,7 @@ export default function EducationExperience() {
         </div>
 
         {/* Stats Row */}
-        <div className="grid md:grid-cols-3 gap-6 mt-16">
+        <div className="grid md:grid-cols-2 gap-6 mt-16">
           <div className="border border-green-500/20 rounded-lg p-6 bg-gradient-to-br from-slate-900/50 to-slate-800/50 backdrop-blur-sm text-center hover:border-green-500/50 transition-colors">
             <p className="text-4xl font-bold text-green-400 mb-2">1+</p>
             <p className="text-gray-400">Years of Professional Experience</p>
@@ -166,10 +166,7 @@ export default function EducationExperience() {
             <p className="text-4xl font-bold text-blue-400 mb-2">10+</p>
             <p className="text-gray-400">Projects Completed</p>
           </div>
-          <div className="border border-purple-500/20 rounded-lg p-6 bg-gradient-to-br from-slate-900/50 to-slate-800/50 backdrop-blur-sm text-center hover:border-purple-500/50 transition-colors">
-            <p className="text-4xl font-bold bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent mb-2">95%</p>
-            <p className="text-gray-400">ML Model Accuracy (Best)</p>
-          </div>
+          
         </div>
       </div>
     </section>
