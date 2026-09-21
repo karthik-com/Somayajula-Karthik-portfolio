@@ -37,7 +37,7 @@ export default function Hero({ onNavigate }) {
             </h1>
 
             <p className="text-2xl md:text-3xl mb-4 text-gray-300 font-semibold">
-              Cybersecurity Researcher <span className="text-green-400">&</span> Full-Stack Developer
+              Cybersecurity Analyst | Researcher <span className="text-green-400">&</span> Full-Stack Developer
             </p>
 
             <p className="text-lg text-gray-400 mb-8 max-w-xl leading-relaxed">
