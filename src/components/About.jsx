@@ -56,19 +56,18 @@ export default function About() {
         </div>
 
         {/* Stats Section */}
-        <div className="grid md:grid-cols-3 gap-6 mt-12">
+        <div className="grid md:grid-cols-2 gap-6 mt-12">
           <div className="border border-green-500/20 rounded-lg p-6 bg-gradient-to-br from-slate-900/50 to-slate-800/50 backdrop-blur-sm text-center hover:border-green-500/50 transition-colors">
-            <p className="text-4xl font-bold text-green-400 mb-2">1+</p>
-            <p className="text-gray-400">Years of Professional Experience</p>
+            <p className="text-4xl font-bold text-green-400 mb-2">UGC NET June 2026</p>
+            <p className="text-gray-400">Score: 166/300</p>
+            <p className="text-gray-400">Qualified for Assistant Professor & Admission to Ph.D</p>
           </div>
           <div className="border border-blue-500/20 rounded-lg p-6 bg-gradient-to-br from-slate-900/50 to-slate-800/50 backdrop-blur-sm text-center hover:border-blue-500/50 transition-colors">
-            <p className="text-4xl font-bold text-blue-400 mb-2">10+</p>
-            <p className="text-gray-400">Projects Completed</p>
+            <p className="text-4xl font-bold text-blue-400 mb-2">TG PGECET 2025</p>
+            <p className="text-gray-400">Rank: 88</p>
+            <p className="text-gray-400">Percentile: 99</p>
           </div>
-          <div className="border border-purple-500/20 rounded-lg p-6 bg-gradient-to-br from-slate-900/50 to-slate-800/50 backdrop-blur-sm text-center hover:border-purple-500/50 transition-colors">
-            <p className="text-4xl font-bold bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent mb-2">95%</p>
-            <p className="text-gray-400">ML Model Accuracy (Best)</p>
-          </div>
+          
         </div>
 
         </div>
